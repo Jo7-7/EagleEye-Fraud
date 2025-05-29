@@ -7,10 +7,6 @@
 - Certaines variables (ex : V14, V17, V12…) montrent des différences de distribution marquées entre fraudes et non-fraudes
 - Prochaines étapes : modélisation en tenant compte du déséquilibre, feature selection possible sur les variables les plus pertinentes
 
-## Visualisations clés
-
-[Inclure quelques captures de tes meilleurs graphiques]
-
 ## Variables potentiellement pertinentes pour la détection
 
 ## Analyse des corrélations avec la variable cible (fraude)
