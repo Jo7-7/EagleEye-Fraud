@@ -23,7 +23,7 @@ La heatmap des corrélations montre que :
 - Il sera pertinent de surveiller l’importance de ces variables lors de la modélisation (feature importance).
 - La combinaison de ces variables par un algorithme de Machine Learning permettra d’améliorer la détection.
 
-![alt text](image.png)
+![alt text](../img/US2_corr_heatmap.png)
 
 **Conclusion :**
 Pour la modélisation, il faudra privilégier les algorithmes capables de capter les interactions entre variables. Une sélection des features (V17, V14, V12, V10, etc.) pourra être envisagée pour des modèles simples, mais la plupart des modèles utiliseront toutes les variables disponibles.
