@@ -16,10 +16,13 @@
     -**Temps (“Time”)** :
         Le champ varie de 0 à 172 792 secondes (~48h), ce qui correspond bien à la durée du dataset (2 jours).
     -**Variables V1 à V28** :
-        Pas de valeurs manquantes ni infinies détectées. Quelques valeurs extrêmes (supérieures à |10|) mais cohérentes avec une transformation PCA.
-    -**Décision** :
-        Aucune valeur extrême anormale n’a été détectée nécessitant une correction ou une suppression.
-
+        Les variables V1 à V28 résultent d'une transformation PCA et présentent naturellement :
+            Une moyenne proche de 0
+            Un écart-type autour de 1
+            Quelques valeurs extrêmes (ex : V2 min -72, max 22 ; V5 min -113, max 35 ; V7 max 120 ; V8 min -73, etc.)
+            Le dataset est ainsi prêt pour l’analyse exploratoire et la modélisation.
+                -**Décision** :
+                    Aucune valeur extrême anormale n’a été détectée nécessitant une correction ou une suppression.
 - Analyse de la variable cible : X transactions normales, Y fraudes
 
 ## Décisions
